@@ -8,7 +8,4 @@ def rev(bs):
 	return 'Bs is %s' %bs
 
 if __name__ == '__main__':
-	app.debug = True
-	# app.register_blueprint(app, url_prefix='/metro')
-	#app.register_blueprint(app, url_prefix='/')
-	app.run(host='0.0.0.0')
+	app.run()
